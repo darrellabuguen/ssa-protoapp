@@ -14,8 +14,8 @@ const Intro = () => {
                 </button>
             </div>
             <div className='intro__stores'>
-                <a><img src='./src/assets/badge.play-store.svg' alt='img' /></a>
-                <a><img src='./src/assets/badge.app-store.svg' alt='img' /></a>
+                <a href='/'><img src='./src/assets/badge.play-store.svg' alt='img' /></a>
+                <a href='/'><img src='./src/assets/badge.app-store.svg' alt='img' /></a>
             </div>
             <div className='intro__btmimg'>
                 <img src='./src/assets/bg-decals.svg' alt='img' width={"100%"} />

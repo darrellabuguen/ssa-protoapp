@@ -32,7 +32,7 @@ function App() {
           </ul>
         </nav>
       </header>
-      <img src='./src/assets/bg-leaves.svg' className='bg-top' />
+      <img src='./src/assets/bg-leaves.svg' alt='img' className='bg-top' />
       <Intro />
       <Body />
       <Ready />

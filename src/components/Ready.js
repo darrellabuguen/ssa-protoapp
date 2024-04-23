@@ -11,8 +11,8 @@ const Ready = () => {
                 <p>So are we. Unless. You're. Not. Word filler</p>
             </div>
             <div className='intro__stores'>
-                <a><img src='./src/assets/badge.play-store.svg' alt='img' /></a>
-                <a><img src='./src/assets/badge.app-store.svg' alt='img' /></a>
+                <a href='/'><img src='./src/assets/badge.play-store.svg' alt='img' /></a>
+                <a href='/'><img src='./src/assets/badge.app-store.svg' alt='img' /></a>
             </div>
         </div>
     )
