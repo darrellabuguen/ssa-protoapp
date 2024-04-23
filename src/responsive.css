@@ -1,0 +1,185 @@
+@media (min-width: 0px) {
+    .li-logo {
+        flex: 1;
+    }
+
+    .home-link {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .bg-top {
+        right: 0;
+    }
+
+    nav,
+    .intro__container,
+    .body__container {
+        width: 95%;
+    }
+
+    .intro__innercon h1 {
+        font-size: 2.5rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+
+    .intro__stores {
+        flex-direction: column;
+        gap: .5rem;
+        padding: 5rem 0;
+    }
+
+    .body__container h1 {
+        font-size: 2rem;
+    }
+
+    .content__container {
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    .content__container.aug {
+        flex-direction: column;
+    }
+
+    .content__img {
+        width: 80%;
+    }
+
+    .content__text.poss h2 {
+        width: 100%;
+        float: none;
+    }
+
+    .ready__img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .last__container h1 {
+        font-size: 2rem;
+    }
+
+    .last__card {
+        width: 80%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .card__img {
+        width: 10rem;
+    }
+
+    .card__text {
+        width: 80%;
+    }
+
+    .last__innercon {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 425px) {
+    nav {
+        width: 80%;
+        padding: .5rem 0;
+    }
+
+    .intro__container,
+    .body__container {
+        width: 80%;
+    }
+
+    .intro__stores {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .content__text.poss h2 {
+        width: 70%;
+        float: right;
+    }
+
+    .last__container h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .li-logo {
+        flex: 0;
+    }
+
+    .home-link {
+        display: flex;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .bg-top {
+        right: 1rem;
+    }
+
+    .intro__innercon h1 {
+        font-size: 4rem;
+    }
+
+    button {
+        font-size: 1.5rem;
+    }
+
+    .body__container h1 {
+        font-size: 3rem;
+    }
+
+    .content__container,
+    .content__container.aug {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .content__img {
+        width: 40rem;
+    }
+
+    .last__container h1 {
+        font-size: 3rem;
+    }
+
+    .last__card {
+        flex-direction: row;
+        height: 20rem;
+    }
+
+    .card__img {
+        width: 30rem;
+    }
+
+    .card__text {
+        width: 70rem;
+    }
+}
+
+@media (min-width: 1100px) {
+    .last__innercon {
+        flex-direction: row;
+    }
+
+    .last__card {
+        width: 30rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .last__card {
+        width: 40rem;
+    }
+}
