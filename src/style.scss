@@ -6,6 +6,10 @@
     --card-green: #17A2B8;
 }
 
+#root {
+    overflow: hidden;
+}
+
 $primary-text: 1.5rem;
 $secondary-text: 1.2rem;
 
@@ -80,6 +84,7 @@ nav {
 .intro__container {
     width: 80%;
     margin: auto;
+    position: relative;
 }
 
 .intro__innercon {
@@ -107,10 +112,9 @@ nav {
 
 .intro__btmimg {
     position: absolute;
-    left: -5rem;
-    bottom: 1rem;
+    left: -10rem;
+    bottom: 2rem;
     pointer-events: none;
-    max-width: 100rem;
     z-index: -1;
 }
 
